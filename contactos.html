@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>InfoAUTOS</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="./nosotros.html">NOSOTROS</a></li>
+                <li><a href="./marcas.html">MARCAS</a></li>
+                <li><a href="./index.html">PRINCIPAL</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contenido">
+            <div class="contactos">     
+                <form action="">
+                    <div>
+                        <label for="nombre">NOMBRE/S:</label>
+                        <input type="text" name="nombre" placeholder="Ingrese su Nombre" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="apellido">APELLIDO/S:</label>
+                        <input type="text" name="apellido" placeholder="Ingrese su Apellido" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">EMAIL:</label>
+                        <input type="email" name="email" placeholder="Ingrese su Email (Obligatorio)" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="comentario">DEJENOS SU COMENTARIO</label>
+                        <br>
+                        <textarea name="comentario" id="" cols="75" rows="8"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <input class="boton" type="submit" value="  ENVIAR  ">
+                        <input class="boton" type="reset" value="  BORRAR  ">
+                    </div>
+                </form> 
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="pie">
+            <div class="numtel">
+                <label for="telefono">TELEFONO: +54 911 4444-5555 </label>
+            </div>
+            <div class="mail">
+                <label for="email">infoautos@gmail.com</label>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
